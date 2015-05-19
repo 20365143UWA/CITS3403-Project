@@ -1,3 +1,161 @@
 // Place all the styles related to the site controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+body	{ min-height:100%
+		; background-color:white
+		; position:relative
+		}
+
+header	{ display:block
+		; border:2px solid
+		; margin: 6px auto
+		; background-origin: content-box
+		; width: 1100px
+		; background-image: url("/IMAGES/Webchef.jpg")
+		}
+
+nav		{ display:block
+		; text-align: center
+		; font-size:20px
+		; font-family: Tahoma, Geneva, sans-serif
+		; border:0 solid
+		; margin: 15px auto
+		; color: white
+		}
+
+main	{ display:block
+		}
+
+.square	{ display: table
+		; width: 1100px
+		; height:151px
+		; background:white
+		; border: 2px solid black
+		; margin-left: auto
+		; margin-right: auto
+		; background-image: url("/IMAGES/dom.jpg")
+		}
+
+#month	{ position: relative
+		; bottom: 125px
+		; left: 75px
+		; font-size: 20px
+		; font-family: Century Gothic, sans-serif
+		; font-weight: bold
+		; color: white
+		}
+
+#fom	{ position: relative
+		; bottom:100px
+		; font-family: Century Gothic, sans-serif
+		; right: 350px
+		; color: white
+		}
+
+.back	{ position: relative
+		; display: table
+		; width: 1100px
+		; height:700px
+		; background: white
+		; border: 2px solid black
+		; top: 6px
+		; margin-left: auto
+		; margin-right: auto
+		}
+
+.description
+		{ position: relative
+		; display: table
+		; text-align: center
+		; color: black
+		; left: 0
+		; bottom:8px
+		}
+
+.dish	{ position: relative
+		; bottom: 185px
+		; color: #333333
+		; font-size: 13px
+		; font-family: Century Gothic, sans-serif
+		; font-weight: bold
+		; text-decoration: underline
+		}
+
+.box	{ transition: all .2s ease-in-out
+		; position: relative
+		; display: table
+		; width: 225px
+		; height:225px
+		; background: white
+		; border: 2px solid black
+		; margin-left: auto
+		; margin-right: auto
+		; box-shadow: 10px 10px 10px #888888
+		; font-family: Century Gothic, sans-serif
+		; font-size: 12px
+		}
+
+.box:hover
+		{ transform: scale(1.2)
+		}
+
+#box1	{ bottom: 600px
+		; right: 350px
+		}
+
+#box2	{ bottom: 830px
+		}
+
+#box3	{ bottom: 1060px
+		; left: 350px
+		}
+
+#box4	{ bottom: 1000px
+		; right: 350px
+		}
+
+#box5	{ bottom: 1230px
+		}
+
+#box6	{ bottom: 1460px
+		; left: 350px
+		}
+
+footer	{ display:block
+		; width:100%
+		; height:80px
+		; position:absolute
+		; bottom:0
+		; left:0
+		}
+
+.footertext
+		{ padding:10px
+		}
+
+.validicon
+		{ float:right
+		; margin-top:0
+		; margin-bottom:0
+		; padding:0
+		; width:88px
+		; height:31px
+		}
+
+a		{ text-decoration: none
+		; color:white
+		}
+
+a:hover	{ color: black
+		}
+
+h1		{ font-family: American Typewriter, Courier New, Courier, Monaco, mono
+		; font-size:40px
+		; font-weight: 1px
+		; color: white
+		; height: 30px
+		; font-style: italic
+		; margin-left: auto
+		; margin-right: auto
+		; width: 1%
+		}
